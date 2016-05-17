@@ -1,0 +1,18 @@
+[
+  {
+    "model": "destinos.Provincia",
+    "pk": 1,
+    "fields": {
+      "nombre": "Lima",
+      "referencia": "Capital del Peru"
+    }
+  },
+  {
+    "model": "destinos.Provincia",
+    "pk": 2,
+    "fields": {
+      "nombre": "Callao",
+      "referencia": "Provincia constitucional del Peru"
+    }
+  }
+]

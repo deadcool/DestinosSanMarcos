@@ -1,0 +1,38 @@
+[
+  {
+    "model": "destinos.Distrito",
+    "pk": 1,
+    "fields": {
+      "nombre": "Miraflores",
+      "referencia": "Lennon",
+      "provincia": 1
+    }
+  },
+  {
+    "model": "destinos.Distrito",
+    "pk": 2,
+    "fields": {
+      "nombre": "Chorrillos",
+      "referencia": "Lennon",
+      "provincia": 1
+    }
+  },
+  {
+    "model": "destinos.Distrito",
+    "pk": 3,
+    "fields": {
+      "nombre": "Ancon",
+      "referencia": "Lennon",
+      "provincia": 1
+    }
+  },
+  {
+    "model": "destinos.Distrito",
+    "pk": 4,
+    "fields": {
+      "nombre": "La Punta",
+      "referencia": "Lennon",
+      "provincia": 2
+    }
+  }
+]
