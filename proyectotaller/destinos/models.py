@@ -3,14 +3,14 @@ from django.utils import timezone
 
 
 class Administrador(models.Model):
-    username = models.CharField(max_length=10)
-    password = models.CharField(max_length=10)
-    e_mail = models.EmailField(max_length=30)
+    username = models.CharField(max_length=15)
+    password = models.CharField(max_length=15)
+    e_mail = models.EmailField(max_length=50)
 
 
 class Empresa(models.Model):
     nombre = models.TextField(max_length=30)
-    RUC = models.IntegerField(max_length=10)
+    RUC = models.IntegerField()
     e_mail = models.EmailField(max_length=30)
     telefono = models.CharField(max_length=12)
 

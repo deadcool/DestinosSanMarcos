@@ -1,3 +1,7 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+
+def administrador(request):
+    html = "<html><body><p>It's now or never</p></body></html>"
+    return HttpResponse(html)

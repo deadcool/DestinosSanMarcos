@@ -1,7 +1,10 @@
 <component name="ProjectDictionaryState">
   <dictionary name="luiz">
     <words>
+      <w>backends</w>
       <w>destinos</w>
+      <w>destinosdb</w>
+      <w>postgresql</w>
     </words>
   </dictionary>
 </component>
